@@ -1,0 +1,28 @@
+@font-face {
+   font-family: "e-Ukraine Light";
+   font-weight: 300;
+   font-style: normal;
+   src: local("e-Ukraine Ligth"),
+      local("e-Ukraine-Ligth"),
+      url("../fonts/e-Ukraine-Ligth.woff2") format("woff2"),
+      url("../fonts/e-Ukraine-Ligth.woff") format("woff"),
+      url("../fonts/e-Ukraine-Ligth.eot") format("eot");
+   font-display: swap;
+}
+
+.block, .inline {
+   font-size: 2rem;
+}
+
+.line {
+   background-color: black;
+   height: 5px;
+   margin: 50px 0;
+}
+
+.content-1__block {
+   box-sizing: border-box;
+   padding: 15px;
+   background-color: #ffb1b1;
+   margin-bottom: 50px;
+}
